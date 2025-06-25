@@ -1,0 +1,42 @@
+name: surveys_app
+description: Aplicación de encuestas multicanal con IA
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.4
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+  path: ^1.8.3
+  google_fonts: ^6.1.0
+  flutter_staggered_animations: ^1.1.1
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  flutter_secure_storage: ^9.0.0 # Check for the latest version
+  provider: ^6.1.2 # Check for the latest version
+  record: ^5.0.4
+  audioplayers: ^5.2.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  http_parser: ^4.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+dependency_overrides:
+  record_platform_interface: 1.2.0
